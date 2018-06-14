@@ -1,0 +1,6 @@
+/vendor
+/.idea
+/generated
+/credentials.yml
+.htaccess
+.htpasswd

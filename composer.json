@@ -1,0 +1,26 @@
+{
+    "name": "somrlik/htaccess-generator",
+    "description": "Generates htaccess and htpassw files",
+    "type": "project",
+    "require": {
+        "symfony/yaml": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karel 'Somrlik' Syrovy",
+            "email": "somrlik@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
+    },
+    "autoload": {
+      "psr-0": {
+        "HtaccessGenerator\\": "src/"
+      }
+    },
+    "minimum-stability": "stable"
+}
